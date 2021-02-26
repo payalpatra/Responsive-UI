@@ -27,7 +27,7 @@ body {
 .heading {
   display: flex;
   color: #fff;
-  padding: 5px;
+  /* padding: 5px; */
   padding-bottom: 0;
   margin-bottom: 8px;
 }
