@@ -303,10 +303,17 @@ h4 span {
 .input-field {
   width: 900px !important;
 }
+.subject {
+  width: 150px;
+  height: 35px;
+}
 
 @media (max-width: 1572px) {
   .input-field {
     width: 700px !important;
+  }
+  .header-icon1 {
+    margin-left: 800px !important;
   }
 }
 
@@ -314,10 +321,41 @@ h4 span {
   .input-field {
     width: 500px !important;
   }
+  .header-icon1 {
+    margin-left: 600px !important;
+  }
 }
 
 @media (max-width: 732px) {
   .input-field {
-    width: 100px !important;
+    width: 800px !important;
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .main_content {
+    max-width: 1100px !important;
+  }
+
+  .header {
+    width: 900px !important;
+  }
+  .header-icon1 {
+    margin-left: 290px !important;
+  }
+  .input-field {
+    width: 400px !important;
+  }
+  .btn {
+    margin-left: 180px !important;
+  }
+}
+
+@media screen and (max-width: 1337px) {
+  .header {
+    width: 1200px;
+  }
+  .header-icon1 {
+    margin-left: 580px !important;
   }
 }
